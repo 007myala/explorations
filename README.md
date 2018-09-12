@@ -5,6 +5,23 @@ Course No. 6909-001
 # About
 SOS is an emotion artificial intelligence that attempts to reduce occurences of suicide by allowing people with depression and suicidal ideation to seek help or counsel from their friends and family without fear or judgement. The application tracks certain physical and psychological metrics which it then uses to guage the user's emotional vulnerability. The emotion AI then chooses the correct course of action e.g call a warrior or alert 911 that the person is in danger. 
 
+#License 
+
+Copyright (C) 2018 Maria. A. Yala
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 # Technologies used by the application:
 Geolocation
 Voice Recognition
@@ -56,5 +73,5 @@ A page displaying the BVELF Test, a calibration process of the sensors and devic
     F - Facial recognition - At initialization, the user's face is scanned in and is stored in the database. This data is then used to track and identify the user for example if they visit a designated suicide zone. 
 
 # Reference Links
-
+Creating a multi-step form - https://www.w3schools.com/howto/howto_js_form_steps.asp
 

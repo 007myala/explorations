@@ -7,8 +7,8 @@
         <h1>SOS:An emotion AI</h1>
         <div id="buttons">
             <ul>
-                <li>Login</li>
-                <li>Signup</li>
+                <li><a href="./login.php">Login</a></li>
+                <li><a href="./signup.php">Signup</a></li>
             </ul>
         </div>
     </body>

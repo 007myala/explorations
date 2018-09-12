@@ -21,28 +21,33 @@ geolocation, voice recognition and
 
 # Program Files
 index.php
-    The landing page which will display a message about the application and two buttons - login & signup
+
+The landing page which will display a message about the application and two buttons - login & signup
 
 login.php
-    A page displaying a form to collect a username and a password
+
+A page displaying a form to collect a username and a password
 
 signup.php
-    A page to collect the user's initial data such as age and gender. This page leads to the initialize.php page which presents a questionnaire for a self-care checklist so that a user can set boundaries and danger zones.
+
+A page to collect the user's initial data such as age and gender. This page leads to the initialize.php page which presents a questionnaire for a self-care checklist so that a user can set boundaries and danger zones.
 
 initialize.php
-    A page presenting a self-care checklist that allows the user to set boundaries for different metrics that the emotion AI will track. This page leads to caibrate.php    
-    Isolation - How many hours a day/week does the user want of face-to-face interaction?
-    Drinking - How much alcohol is the user consuming?
-    Insomnia - How many hours a night does the user need?
-    Activity Level - How many hours a day has the user been active?
-    Excercise - How much exercise is the user getting?
-    Eating - Is the user under/overeating?
-    Trigger words - What kind of words does the user user when depressed?
-    Trigger thoughts - What kinds of negative thoughts does the user have?
-    Self-care activities - a list of possible self-care activities for the user to pick
+
+A page presenting a self-care checklist that allows the user to set boundaries for different metrics that the emotion AI will track. This page leads to caibrate.php    
+    1. Isolation - How many hours a day/week does the user want of face-to-face interaction?
+    2. Drinking - How much alcohol is the user consuming?
+    3. Insomnia - How many hours a night does the user need?
+    4. Activity Level - How many hours a day has the user been active?
+    5. Excercise - How much exercise is the user getting?
+    6. Eating - Is the user under/overeating?
+    7. Trigger words - What kind of words does the user user when depressed?
+    8. Trigger thoughts - What kinds of negative thoughts does the user have?
+    9. Self-care activities - a list of possible self-care activities for the user to pick
 
 calibrate.php
-    A page displaying the BVELF Test, a calibration process of the sensors and devices needed by the emotion AI
+
+A page displaying the BVELF Test, a calibration process of the sensors and devices needed by the emotion AI
 
     B - Biometric data calibration - This data is collected via an injectable bio-chip and a wearable wrist band that tracks activity
     V - Voice recognition - This sensor records and analyzes user's speech patterns in real-time. It is part of wearable headgear

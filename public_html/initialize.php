@@ -2,11 +2,13 @@
 <html>
     <head>
         <title>Initialize Set-Up Questionnaire</title>
-        <script src="./js/multistepform.js"></script>
+        <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="./js/multistepform.js"></script>
     </head>
     <body>
         <h1>Initializing the set-up questionnaire</h1>
-        <form id="scchecklist" action="">
+        <form id="selfcare" action="">
             <h1>Self-care Checklist</h1> 
             <!-- Each tab represents a 'page' of the form-->
             <div class="tab">Isolation:
@@ -49,8 +51,8 @@
             <!--Form navigation buttons-->
             <div style="overflow:auto;">
                 <div style="float:right;">
-                    <button type="button" id="prevBtn" onClick="nextPrev(-1)">Previous</button>
-                    <button type="button" id="nextBtn" onClick="nextPrev(1)">Next</button>
+                    <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+                    <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
                 </div>
             </div>
 

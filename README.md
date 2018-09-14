@@ -5,7 +5,7 @@ Course No. 6909-001
 # About
 SOS is an emotion artificial intelligence that attempts to reduce occurences of suicide by allowing people with depression and suicidal ideation to seek help or counsel from their friends and family without fear or judgement. The application tracks certain physical and psychological metrics which it then uses to guage the user's emotional vulnerability. The emotion AI then chooses the correct course of action e.g call a warrior or alert 911 that the person is in danger. 
 
-#License 
+# License 
 
 Copyright (C) 2018 Maria. A. Yala
 
@@ -35,6 +35,8 @@ geolocation, voice recognition and
 3. Figure out how to mark or pin a location on a google map as a danger zone.
 4. Incorporate p5.js animations to simpulate the "impossible" parts of the technology
 5. Add some css to correctly layout elements on the pages
+6. Fix the multi-step form functionality
+7. Add functionality and pages to handle a warrior's perspective
 
 # Program Files
 index.php

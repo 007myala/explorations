@@ -11,6 +11,17 @@
         <form id="selfcare" action="">
             <h1>Self-care Checklist</h1> 
             <!-- Each tab represents a 'page' of the form-->
+            <!--1st Step - Safety Plan-->
+            <div class="tab">Warning Signs:
+                <p>Pick at least 3 things you are concerned about:</p>
+                <input type="checkbox" name="warningsigns" value="isolation" oninput="this.className = ''">Isolation<br>
+                <input type="checkbox" name="warningsigns" value="drinking" oninput="this.className = ''">Drinking<br>
+                <input type="checkbox" name="warningsigns" value="insomnia" oninput="this.className = ''">Insomnia<br>
+                <input type="checkbox" name="warningsigns" value="activity" oninput="this.className = ''">Activity Level<br>
+                <input type="checkbox" name="warningsigns" value="exercise" oninput="this.className = ''">Exercise<br>
+                <input type="checkbox" name="warningsigns" value="overeating" oninput="this.className = ''">Overeating<br>
+                <input type="checkbox" name="warningsigns" value="undereating" oninput="this.className = ''">Not eating<br>
+            </div>
             <div class="tab">Isolation:
                 <p>How many hours a week of face-to-face interaction do you want?</p>
                 <p><input placeholder="Hours..." oninput="this.className = ''"></p>

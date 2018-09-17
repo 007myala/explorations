@@ -9,12 +9,27 @@ body {
     letter-spacing: 0px;
 }
 
+.sctxt {
+    font-size: 22px;
+}
+
+textarea.sctxt {
+    width: 900px;
+    min-height: 210px;
+    margin-bottom: 20px;
+}
+
+div.dashcard {
+    width: 250px;
+    float: right;
+}
+
 /* Multi-step form */
 /* Multi-step form CSS referenced from https://www.w3schools.com/howto/howto_js_form_steps.asp */
 #selfcare {
     background-color: #ffffff;
-    margin: 100px auto;
-    padding: 40px;
+    margin: auto;
+    padding: 0px;
     width: 70%;
     min-width: 300px;
 }
@@ -88,7 +103,7 @@ input.invalid {
     font-style:normal;
     height:50px;
     line-height:50px;
-    width:100px;
+    width:150px;
     text-decoration:none;
     text-align:center;
     text-shadow:1px 1px 0px #ffffff;

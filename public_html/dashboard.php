@@ -44,8 +44,9 @@
             <div class="dashcard cta">
                 Need to talk?<br>Reach out to a warrior
                 <ol id="wlist">
-                    <li>Jane Doe</li>
-                    <li>John Doe</li>
+                    <li class="avail" onclick="requestHelp()">Jane Doe</li>
+                    <li class="unavail" onclick="warriorUnavailable()">John Doe</li>
+                    <li class="avail" onclick="requestHelp()">Ontario Crisis Center</li>
                 </ol>
             </div>
             <div class="dashcard cta">
@@ -57,7 +58,7 @@
                 <button onclick="auth();" class="accessbtns">Launch</button>
             </div>
             <div class="dashcard cta">
-                I Live For:<br>
+                I Live For:<br><br>
                 <?php 
                     $livefor = $_POST["livefor"]; 
                     $reasons = explode(',', $livefor);
@@ -66,11 +67,18 @@
                         echo $reason.'<br>';  
                     }
                 ?>
-                <button onclick="auth();" class="accessbtns">Display</button>
             </div>
         </div>
         <div style="clear:both;width:100%;background-color:red;">
             <div id="emergency"></div>
         </div>
+        <script>
+            function requestHelp(){
+                alert("Warrior has been notified. Hang in there!");
+            }
+            function warriorUnavailable(){
+                alert("Sorry, this warrior is unavaiable. Please try someone else");
+            }
+        </script>
     </body>
 </html>

@@ -24,6 +24,14 @@ div.dashcard {
     float: right;
 }
 
+li.avail {
+    color: green;
+}
+
+li.unavail {
+    color: grey;
+}
+
 /* Multi-step form */
 /* Multi-step form CSS referenced from https://www.w3schools.com/howto/howto_js_form_steps.asp */
 #selfcare {

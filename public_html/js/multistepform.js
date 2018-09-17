@@ -82,6 +82,22 @@ function fixStepIndicator(n) {
     x[n].className += " active";
 }
 
+function auth(){
+    var config = {
+        'client_id': '1035453567448-gb8kb90sdk1b6q22lpgpnvdfuml02en2.apps.googleusercontent.com',
+        'redirect_uri': 'http://explorations.dev/initialize.php',
+        'scope': [
+            'https://www.googleapis.com/auth/userinfo.profile',
+            'https://www.googleapis.com/auth/glass.timeline',
+            'https://www.googleapis.com/auth/glass.location'
+            ]
+    };
+
+    gapi.auth.authorize(config, function(){
+        console.log('completed login');
+        console.log(gapi.auth.getToken());
+        });
+}
 
 
 

@@ -24,13 +24,13 @@
             </div>
             <div class="tab">
                 <h3>Warning signs: What are you are concerned about?</h3>
-                <input type="checkbox" name="warningsigns" value="isolation" oninput="this.className = ''">Isolation<br>
-                <input type="checkbox" name="warningsigns" value="drinking" oninput="this.className = ''">Drinking<br>
-                <input type="checkbox" name="warningsigns" value="insomnia" oninput="this.className = ''">Insomnia<br>
-                <input type="checkbox" name="warningsigns" value="activity" oninput="this.className = ''">Activity Level<br>
-                <input type="checkbox" name="warningsigns" value="exercise" oninput="this.className = ''">Exercise<br>
-                <input type="checkbox" name="warningsigns" value="overeating" oninput="this.className = ''">Overeating<br>
-                <input type="checkbox" name="warningsigns" value="undereating" oninput="this.className = ''">Not eating<br>
+                <input type="checkbox" name="warningsigns[]" id="warningsigns" value="Isolation" oninput="this.className = ''">Isolation<br>
+                <input type="checkbox" name="warningsigns[]" id="warningsigns" value="Drinking" oninput="this.className = ''">Drinking<br>
+                <input type="checkbox" name="warningsigns[]" id="warningsigns" value="Insomnia" oninput="this.className = ''">Insomnia<br>
+                <input type="checkbox" name="warningsigns[]" id="warningsigns" value="Activity" oninput="this.className = ''">Activity Level<br>
+                <input type="checkbox" name="warningsigns[]" id="warningsigns" value="Exercise" oninput="this.className = ''">Exercise<br>
+                <input type="checkbox" name="warningsigns[]" id="warningsigns" value="Overeating" oninput="this.className = ''">Overeating<br>
+                <input type="checkbox" name="warningsigns[]" id="warningsigns" value="Undereating" oninput="this.className = ''">Not eating<br>
             </div>
             <div class="tab">
                 <h3>What do you live for?</h3>

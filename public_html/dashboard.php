@@ -30,9 +30,14 @@
         <br>
         <div>
             <div class="dashcard cta">
-                SOS is tracking for:
+                SOS is tracking your:
+                <?php  
+                    $wsigns = $_POST["warningsigns"];
+                ?>
                 <ul>
-                    <li><?php echo $_POST["warningsigns"]?></li>
+                    <?php foreach($wsigns as $wsign){ ?>
+                    <li><?php echo $wsign; ?></li>
+                    <?php } ?>
                 </ul>
                 <br>
             </div>
@@ -52,7 +57,15 @@
                 <button onclick="auth();" class="accessbtns">Launch</button>
             </div>
             <div class="dashcard cta">
-                See your reasons to live.<br><br><br><br>
+                I Live For:<br>
+                <?php 
+                    $livefor = $_POST["livefor"]; 
+                    $reasons = explode(',', $livefor);
+                        
+                    foreach($reasons as $reason){
+                        echo $reason.'<br>';  
+                    }
+                ?>
                 <button onclick="auth();" class="accessbtns">Display</button>
             </div>
         </div>

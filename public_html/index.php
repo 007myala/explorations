@@ -20,7 +20,7 @@
         <div id="wbtns">
             <h4>WARRIORS!</h4>
             <p class="cta">Help someone who needs it</p>
-            <a href="#" class="accessbtns">LOGIN</a>
+            <a href="./wdashboard.php" class="accessbtns">LOGIN</a>
             <a href="#" class="accessbtns">SIGNUP</a>
         </div>
     </body>
